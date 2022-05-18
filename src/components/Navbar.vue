@@ -20,9 +20,9 @@ export default {
 
     const handleClick = async() => {
       await logout()
-      if(!error.value){
-        router.push({name: 'welcome'})
-      }
+      // if(!error.value){
+      //   router.push({name: 'welcome'})
+      // }
     }
 
     return { handleClick, user }
